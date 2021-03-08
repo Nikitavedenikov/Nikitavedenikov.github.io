@@ -253,7 +253,7 @@ function finish (){
     }else{
         //slide next
     let out = '';
-    out += '<tr class="bg-primary">' +
+    out += '<tr>' +
         '<th>'+ '</th> ';
     for (let cr of criteriaArr){
         out += '<th>'+ cr +'</th>'
